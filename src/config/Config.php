@@ -10,7 +10,8 @@ class Config
 
     public function __construct()
     {
-        $this->apiKey = Stripe::setApiKey('sk_test_51LcBImAmPTdV3UZb0Ob7b47wRgBtDaZqWqIiK9FjlvufbZL6XrZ7CuuN9lO1Pkh7ZpM5znYblMuNXmjXbAYCFZbs008G0ASdJ5');
+        // Provide your stripe API key here
+        $this->apiKey = Stripe::setApiKey('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
     }
 
     public function getApiKey()
