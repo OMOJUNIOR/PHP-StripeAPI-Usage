@@ -6,16 +6,16 @@
 </head>
 <body>
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 use Omojunior\PhpStripeApiUsage\controller\HomeController;
-use Omojunior\PhpStripeApiUsage\Payment;
+
 $home = new HomeController();
 $items = $home->showProduct();
 ?>
-<?php if(empty($items)): ?>
+<?php if (empty($items)) { ?>
     <h1>No items found</h1>
-<?php else: ?>
-<?php foreach($items as $item): ?>
+<?php } else { ?>
+<?php foreach ($items as $item) { ?>
 <div class="py-16 px-4 md:px-6 2xl:px-0 flex justify-center items-center 2xl:mx-auto 2xl:container">
             <div class="flex flex-col justify-start items-start w-full space-y-9">
                 <div class="flex flex-col xl:flex-row justify-center xl:justify-between space-y-6 xl:space-y-0 xl:space-x-6 w-full">
@@ -40,7 +40,7 @@ $items = $home->showProduct();
             </div>
         </div>
     </div>
- <?php endforeach; ?>
-<?php endif; ?>  
+ <?php } ?>
+<?php } ?>  
 </body>
 </html>

@@ -1,10 +1,8 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__.'/vendor/autoload.php';
 
-use Omojunior\PhpStripeApiUsage\controller\HomeController;
 use Omojunior\PhpStripeApiUsage\controller\Payment;
 
-    $payment = new Payment();
-    $payment-> checkout();
-
+$payment = new Payment();
+$payment->checkout();
