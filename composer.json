@@ -1,0 +1,22 @@
+{
+    "name": "omojunior/php-stripe-api-usage",
+    "description": "This code Library contains the Stripe API integration using PHP",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable", 
+    "autoload": {
+        "psr-4": {
+            "Omojunior\\PhpStripeApiUsage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omojunior",
+            "email": "sheriffmusa42@gmail.com"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^9.8",
+        "tebazil/db-seeder": "^1.0"
+    }
+}
