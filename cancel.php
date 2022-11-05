@@ -16,7 +16,7 @@
             <h3 class="md:text-2xl text-base text-red-900 font-semibold text-center">Payment Canceled!</h3>
             <p class="text-gray-600 my-2">Your transaction was canceled. Please try again</p>
             <div class="py-10 text-center">
-                <a href="product.php" class="px-12 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3">
+                <a href="index.php" class="px-12 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3">
                     GO BACK 
                </a>
             </div>
